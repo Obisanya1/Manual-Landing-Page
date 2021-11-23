@@ -1,0 +1,40 @@
+.footer {
+  background-color: rgb(227, 252, 250);
+  margin-top: 50px;
+}
+
+li {
+  list-style: none;
+  color: gray;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+b {
+  color: rgb(166, 225, 240);
+}
+
+.footeritems {
+  padding-top: 0px;
+}
+
+hr {
+  width: 80%;
+}
+/* 
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+} */
+
+h6 {
+  color: gray;
+  font-weight: 200;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+}

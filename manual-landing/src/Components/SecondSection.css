@@ -1,0 +1,59 @@
+h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.box {
+  max-width: 400px;
+  padding-top: 100px;
+  margin-left: -300px;
+}
+
+.Hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+/* .Hero1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 100px;
+} */
+
+.box1 {
+  padding-top: 10px;
+  justify-self: center;
+  max-width: 300px;
+}
+
+.Hero1 {
+  justify-content: space-around;
+  padding: 0px 50px;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    padding-left: 0px;
+  }
+  .Hero {
+    display: inline-block;
+  }
+
+  .box {
+    max-width: 300px;
+    padding-top: 10px;
+    margin-left: 0px;
+    justify-self: center;
+    margin-left: 50px;
+  }
+}
+
+h2 {
+  font-size: 30px;
+  align-self: center;
+  padding-right: 50px;
+}
